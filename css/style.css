@@ -90,3 +90,58 @@ header {
 .nav_number i {
     margin-right: 0.75rem;
 }
+
+/* Sections */
+
+section {
+    margin: 3rem;
+}
+
+
+/* About Us Section */
+
+.aboutUs {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--whiteOrigin);
+}
+
+.aboutUs_text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 4rem 2rem;
+}
+
+.aboutUs_text h1 {
+    font-size: 2.4rem;
+}
+
+.aboutUs_text p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.aboutUs_text a {
+    padding: 0.8rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--text_black);
+    border: 1px solid transparent;
+    background-color: var(--blueOrigin);
+    transition: all 0.4s ease-in-out;
+}
+.aboutUs_text a:hover {
+    background-color: var(--whiteOrigin);
+    border: 1px solid var(--text_black);
+    font-weight: bolder;
+}
+
+.aboutUs_img {
+    padding: 0rem 6rem;
+}
+
+.aboutUs_img img {
+    width: 420px;
+}
