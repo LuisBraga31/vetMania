@@ -15,10 +15,11 @@ html {
 }
 
 :root {
+    --text_black : #000;
     --whiteGray: #f3f3f3;
     --whiteOrigin: #fff;
-    --blueTurq: #E0FFFF;
-    --blueStrong: #B0E0E6;
+    --blueTurq: #adffff;
+    --blueStrong: #81d8e4;
     --blueOrigin: #00BFFF;
     --green: #00FF7F;
     --greenLight: #90EE90;
@@ -26,5 +27,66 @@ html {
 
 /* Header */
 
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--whiteOrigin);
+}
 
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
 
+.header_logo img {
+    width: 56px;
+}
+
+.header_nav {
+    display: flex;
+    gap: 4.5rem;
+}
+
+.nav_itens {
+    display: flex;
+    justify-content: ce;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav_itens a {
+    text-decoration: none;
+    color: var(--text_black);
+    transition: all 0.3s ease-in;
+    border: 3px solid transparent
+}
+
+.nav_itens a:hover {
+    color: var(--blueOrigin);
+    border-bottom:3px solid var(--blueOrigin);
+}
+
+.nav_number {
+    display: flex;
+}
+
+.nav_number a {
+    text-decoration: none;
+    padding: 0.6rem 1.1rem;
+    border: 1px solid transparent;
+    background-color: var(--blueOrigin);
+    transition: all 0.8s ease-in-out;
+}
+
+.nav_number a:hover {
+    border: 1px solid var(--text_black);
+    background-color: var(--whiteOrigin);
+}   
+
+.nav_number i {
+    margin-right: 0.75rem;
+}
