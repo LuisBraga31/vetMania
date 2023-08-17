@@ -186,3 +186,53 @@ section {
 .service_item p {
     text-align: center;
 }
+
+/* Contacts Section */
+
+.contact {
+    background-color: var(--whiteOrigin);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+}
+
+.contact_infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact_item {
+    width: 260px;
+    height: 195px;
+    background-color: var(--blueStrong);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 2rem 0rem 2rem;
+    gap: 1rem;
+    box-shadow: 5px 8px 8px var(--whiteGray);
+    cursor: pointer;
+}
+
+.contact_item i {
+    padding-bottom: 1rem;
+    color: var(--text_black);
+    
+}
+
+.contact_item:hover {
+    opacity: 80%;
+}
+
+.contact_item p {
+    text-align: center;
+    font-size: 0.8rem;
+}
