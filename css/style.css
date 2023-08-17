@@ -145,3 +145,40 @@ section {
 .aboutUs_img img {
     width: 420px;
 }
+
+/* Services Section */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    background-color: var(--whiteOrigin);
+    padding: 3rem;
+}
+
+.services h3 {
+    font-size: 1.5rem;
+}
+
+.services_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-self: center;
+    gap: 5rem;
+}
+
+.service_item {
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    box-shadow: 5px 5px 10px 10px var(--whiteGray);
+}
+
+.service_item p {
+    text-align: center;
+}
