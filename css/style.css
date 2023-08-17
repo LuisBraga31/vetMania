@@ -120,7 +120,7 @@ section {
 
 .aboutUs_text p {
     font-size: 1rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .aboutUs_text a {
@@ -157,7 +157,7 @@ section {
     padding: 3rem;
 }
 
-.services h3 {
+.services h2 {
     font-size: 1.5rem;
 }
 
@@ -177,6 +177,10 @@ section {
     align-items: center;
     gap: 1.5rem;
     box-shadow: 5px 5px 10px 10px var(--whiteGray);
+}
+
+.service_item h3 {
+    font-size: 1.3rem;
 }
 
 .service_item p {
