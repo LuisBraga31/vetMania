@@ -257,7 +257,61 @@ main {
     font-size: 1.5rem;
 }
 
-.form fieldset {
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.group {
+    display: flex;
+    gap: 40px;
     border: 0;
 }
 
+.form_item {
+    margin-bottom: 1rem;
+}
+
+.form_item input, textarea, button {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.2rem 0.3rem;
+}
+
+.form_item input {
+    width: 16vw;
+}
+
+.form_item label {
+    margin-bottom: 0.2rem;
+    display: block;
+    font-weight: bolder;
+}
+
+.form_item textarea {
+    resize: none;
+}
+
+.form_button {
+    display: flex;
+    justify-content: center;
+}
+
+.form button {
+    font-size: 1.2em;
+    padding: 0.2rem 2.4rem;
+    background: var(--blueOrigin);
+    border: 0;
+    margin-bottom: 1em;
+    color: var(--whiteOrigin);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.form button:hover {
+    transform: scale(1.05);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
