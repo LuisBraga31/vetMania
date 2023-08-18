@@ -80,6 +80,7 @@ header {
     padding: 0.6rem 1.1rem;
     border: 1px solid transparent;
     background-color: var(--blueStrong);
+    border-radius: 15px;
     transition: all 0.8s ease-in-out;
     color: black;
 }
@@ -133,6 +134,7 @@ main {
     border: 1px solid transparent;
     background-color: var(--blueOrigin);
     transition: all 0.4s ease-in-out;
+    border-radius: 15px;
 }
 .aboutUs_text a:hover {
     background-color: var(--whiteOrigin);
@@ -314,4 +316,19 @@ main {
     transform: scale(1.05);
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
+}
+
+/* Footer */
+
+footer {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--whiteOrigin);
+}
+
+footer small {
+    font-size: 0.9rem;
+    font-weight: bold;
 }
