@@ -216,7 +216,7 @@ main {
 .contact_item {
     width: 260px;
     height: 195px;
-    background-color: var(--blueStrong);
+    background-color: var(--blueOrigin);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,3 +240,24 @@ main {
     text-align: center;
     font-size: 0.8rem;
 }
+
+/* Contacts Section */
+
+.talkWithUs {
+    background-color: var(--whiteOrigin);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 3rem;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+}
+
+.form fieldset {
+    border: 0;
+}
+
