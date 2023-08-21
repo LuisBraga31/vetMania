@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
-    
+
     header {
-        position:unset;
+        position:initial;
         display: flex;
        height: 180px;
         flex-direction: column;
@@ -10,6 +10,7 @@
     }
 
     main {
+        width: 100%;
         padding: 0;
     }
 
@@ -44,13 +45,15 @@
 
 @media (max-width: 560px) {
 
-    .header_nav {
-        padding-right: 30px;
-    }
+
 
     .nav_itens a {
         font-size: 0.85rem;
     }
+    .aboutUs_img {
+        padding: 0;
+    }
+
     .aboutUs_img img {
         width: 310px;
     }
